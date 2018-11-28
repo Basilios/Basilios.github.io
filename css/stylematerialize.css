@@ -1,0 +1,80 @@
+@charset "UTF-8";
+header {
+    position: relative;
+}
+
+#BRlogo {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+#menu {
+    color: #f8f8f8;
+    background: #000000;
+}
+
+#content {
+    background: gray;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#BRportraitBW {
+    position: relative;
+    z-index: 1;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.about__text {
+    position: absolute;
+    font-size: 0.3em;
+    width: 30%;
+    z-index: 10;
+    bottom: 30%;
+    left: 30%;
+    background: transparent;
+}
+
+#carouselExampleSlidesOnly {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.Menu a {}
+
+a {
+    text-transform: uppercase;
+    font-size: 0.4em;
+    color: grey;
+}
+
+a:hover {
+    color: red;
+    font-size: 0.5em;
+}
+
+#sidebar.active ul li a {
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 0.85em;
+}
+
+#sidebar.active ul li a i {
+    margin-right: 0;
+    display: block;
+    font-size: 1.8em;
+    margin-bottom: 5px;
+}
+
+#table {
+    color: white;
+    position: absolute;
+    bottom: 30%;
+}
